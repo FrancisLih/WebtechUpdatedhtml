@@ -1,0 +1,109 @@
+/*h2{
+    color:darkgreen;
+}
+
+p {
+    text-align: center;
+    color: teal;
+}
+
+h2 {
+    color: violet;
+}
+/*
+h3 {
+    color: rebeccapurple;
+}
+/*aside {
+    border: 10px dotted green;
+    border-top: 5px dotted black;
+    border-bottom: 5px solid green; */
+}
+a:link {
+    color:aqua;
+    text-decoration: none;
+}
+li:nth-child(odd) {
+    color: green;
+    font-weight: bold;
+}
+a:hover{
+    color: red;
+}
+
+a:active{
+    background-color:yellow;
+}
+header {
+    background-color: rgb(236, 240, 247);
+    padding: 10px;
+    padding-left: 90px;
+    padding-right: 90px; 
+    padding: 5px 10px;
+}
+aside {
+    float: right;
+    margin: -35%;
+    width: 30%;
+    background-color: rgb(236, 240, 247);
+    border-top: 5px solid rgba(72, 112, 221, 0.993);
+    border-bottom: 5px solid rgba(72, 112, 221, 0.993);
+    padding: 40px 40px;
+  }
+article p:last-child {
+    color:rgb(137, 96, 175);
+}
+p::first-line {
+    color:rgb(0, 140, 255)
+}
+h2 {
+    position: relative;
+}
+article h2::after {
+    content: "TOP";
+    background-color: yellow;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -15px;
+    right: -25px;
+}
+.post-img {
+    width: 100%;
+    height: auto 100%
+}
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+body {
+    width:1000px;
+    margin:auto;
+    text-align:left;
+    margin-top:1px;
+    font-family:Arial;
+    border-top: 10px solid rgba(72, 112, 221, 0.993);
+    position: relative;
+}
+h1 {
+    color: lightseagreen;
+    display: inline-block;
+}
+h2 {
+    color: lightseagreen;
+}
+nav{
+    display: inline-block;
+    color: lightseagreen;
+    font-weight: bold;
+    position: relative;
+}
+
